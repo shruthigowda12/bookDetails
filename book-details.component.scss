@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 1px;
+
+    }
+    .title{
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+
+        border-radius: 2px;
+        border-style: none;
+        background-color: rgba(255, 20, 98, 0.836);
+        color: whitesmoke;
+        text-align: left;
+        padding:3px;
+        justify-content: center;
+        margin: 4px;
+        padding: 4px 0 1px 4px;
+
+    }
+    img{
+        width:220px;
+        height:330px;
+        margin-left:5px;
+        overflow: hidden;
+        padding: 15px;
+    }
+    img:hover{
+        transform: scale(1,5);
+
+    }
+    .outer{
+        @media only screen and (max-width: 480px) {
+
+
+        }
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+        position: relative;
+        width: 600px;
+        top:25%;
+        left:32%;
+        transform: translate(-50%,-50%);
+        box-sizing: border-box;
+        padding: 2px;
+        background-color: white;
+        font-size: 20px;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        overflow: hidfden;
+        transition: transform .5s;
+        display: flex;
+    }
+    table{
+        float: left;
+        box-sizing: content-box;
+        margin-left: 30px;
+        width: 100%;
+
+    }
+    td,th{
+
+        border-bottom: 2px solid #ddd;
+        border-right: max;
+        padding: 18px;
+        text-align: left;
+        margin-left: 20px;
+        font-size: 18px;
+
+    }
+
+    .outer table{
+        width:100;
+        flex:0 0 150px;
+
+    }
+    #b1{
+        background-color: rgba(0, 0, 139, 0.753);
+        border-radius: 5px;
+        font-size: 15px;
+        padding: 2px 4px 8px 8px;
+        color: white;
+        border-style:none;
+
+    }
+    #b2{
+        background-color: rgba(0, 128, 0, 0.76);
+        border-radius: 5px;
+        margin-left: 2px;
+        font-size: 15px;
+        padding: 2px 4px 8px 4px;
+        color: white;
+        border-style:none;
+
+    }
+     .mat-icon{
+         color: white;
+         font-size: 18px;
+         padding: 4px 2px 0 2px;
+
+     }
+     .cart{
+         margin: 20px;
+         font-size:20px;
+         border-style:none;
+
+     }
+     .col-3 {width: 25%;}
+     .col-4 {width: 33,33%;}
+     .col-5 {width: 41.66%;}
+     .col-6 {width: 50;}
+     .col-12 {width: 100%;}
+     @media only screen and (max-width: 400px){
+         *{
+             max-width: 100%;
+
+         }
+
+        }
